@@ -28,14 +28,18 @@
 
 
 #pragma mark - Navigation
-
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
     if([segue.identifier isEqualToString:@"presentMySecondViewController"]){
         MySecondViewController *destination = segue.destinationViewController;
+        destination.delegate = self;
         destination.nameText = @"hehehe";
+    }
+    if([segue.identifier isEqualToString:@"execiseButton"]){
+      ExeciseViewController *destination = segue.destinationViewController;
+      destination.delegate = self;
     }
 }
 
