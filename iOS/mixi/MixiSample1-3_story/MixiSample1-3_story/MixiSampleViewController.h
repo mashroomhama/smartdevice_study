@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MySecondViewController.h"
+#import "ExeciseViewController.h"
 
-@interface MixiSampleViewController : UIViewController
+@interface MixiSampleViewController : UIViewController <MySecondViewControllerDelegate,ExeciseViewControllerDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *label;
 - (IBAction)pushButton:(id)sender;
+- (IBAction)secondButtonTapped:(id)sender;
+-(IBAction)unwindToSampleViewController:(UIStoryboardSegue *)segue;
+- (IBAction)connectExecise:(id)sender;
+- (IBAction)connectExeciseWithoutSegue:(id)sender;
+
 
 @end

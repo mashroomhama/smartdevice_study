@@ -14,6 +14,8 @@
 		EEE985C721A281220055A971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE985C521A281220055A971 /* LaunchScreen.storyboard */; };
 		EEE985CA21A281220055A971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE985C921A281220055A971 /* main.m */; };
 		EEE985D221A281490055A971 /* MixiSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE985D121A281490055A971 /* MixiSampleViewController.m */; };
+		EEE985D521A29AE80055A971 /* MySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE985D421A29AE80055A971 /* MySecondViewController.m */; };
+		EEE985D821A2C2560055A971 /* ExeciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE985D721A2C2560055A971 /* ExeciseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		EEE985C921A281220055A971 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEE985D021A281490055A971 /* MixiSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixiSampleViewController.h; sourceTree = "<group>"; };
 		EEE985D121A281490055A971 /* MixiSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiSampleViewController.m; sourceTree = "<group>"; };
+		EEE985D321A29AE80055A971 /* MySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySecondViewController.h; sourceTree = "<group>"; };
+		EEE985D421A29AE80055A971 /* MySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySecondViewController.m; sourceTree = "<group>"; };
+		EEE985D621A2C2560055A971 /* ExeciseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExeciseViewController.h; sourceTree = "<group>"; };
+		EEE985D721A2C2560055A971 /* ExeciseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExeciseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				EEE985C521A281220055A971 /* LaunchScreen.storyboard */,
 				EEE985C821A281220055A971 /* Info.plist */,
 				EEE985C921A281220055A971 /* main.m */,
+				EEE985D321A29AE80055A971 /* MySecondViewController.h */,
+				EEE985D421A29AE80055A971 /* MySecondViewController.m */,
+				EEE985D621A2C2560055A971 /* ExeciseViewController.h */,
+				EEE985D721A2C2560055A971 /* ExeciseViewController.m */,
 			);
 			path = "MixiSample1-3_story";
 			sourceTree = "<group>";
@@ -148,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEE985BF21A281220055A971 /* ViewController.m in Sources */,
+				EEE985D821A2C2560055A971 /* ExeciseViewController.m in Sources */,
 				EEE985D221A281490055A971 /* MixiSampleViewController.m in Sources */,
+				EEE985D521A29AE80055A971 /* MySecondViewController.m in Sources */,
 				EEE985CA21A281220055A971 /* main.m in Sources */,
 				EEE985BC21A281220055A971 /* AppDelegate.m in Sources */,
 			);
