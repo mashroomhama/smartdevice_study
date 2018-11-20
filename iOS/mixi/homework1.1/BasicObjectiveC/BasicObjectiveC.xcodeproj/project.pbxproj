@@ -18,6 +18,7 @@
 		5405EF19171D454500C6E9F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5405EF18171D454500C6E9F5 /* Default-568h@2x.png */; };
 		5405EF1C171D454500C6E9F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5405EF1B171D454500C6E9F5 /* ViewController.m */; };
 		5405EF1F171D454500C6E9F5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5405EF1D171D454500C6E9F5 /* ViewController.xib */; };
+		EEE985DC21A3D00F0055A971 /* TestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE985DB21A3D00F0055A971 /* TestQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		5405EF1A171D454500C6E9F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5405EF1B171D454500C6E9F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5405EF1E171D454500C6E9F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EEE985DB21A3D00F0055A971 /* TestQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestQueue.m; sourceTree = "<group>"; };
+		EEE985DD21A3D4F80055A971 /* TestQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestQueue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				5405EF1B171D454500C6E9F5 /* ViewController.m */,
 				5405EF1D171D454500C6E9F5 /* ViewController.xib */,
 				5405EF09171D454500C6E9F5 /* Supporting Files */,
+				EEE985DB21A3D00F0055A971 /* TestQueue.m */,
+				EEE985DD21A3D4F80055A971 /* TestQueue.h */,
 			);
 			path = BasicObjectiveC;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				5405EF0F171D454500C6E9F5 /* main.m in Sources */,
 				5405EF13171D454500C6E9F5 /* AppDelegate.m in Sources */,
 				5405EF1C171D454500C6E9F5 /* ViewController.m in Sources */,
+				EEE985DC21A3D00F0055A971 /* TestQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				5405EF24171D454500C6E9F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

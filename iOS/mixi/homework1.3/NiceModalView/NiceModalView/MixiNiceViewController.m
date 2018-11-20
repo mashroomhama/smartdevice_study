@@ -7,6 +7,7 @@
 //
 
 #import "MixiNiceViewController.h"
+#import "UIViewController+NiceAnimation.h"
 
 @interface MixiNiceViewController()
 
@@ -65,13 +66,19 @@
 - (IBAction)clickPush:(id)sender
 {
 	MixiNiceViewController *viewController = [[MixiNiceViewController alloc] init];
+    
+    [self.navigationController pushViewController:viewController animated:YES];
 // TODO :　hint-> pushViewController: animation:
 }
 
 - (IBAction)clickModalView:(id)sender
 {
 	MixiNiceViewController *viewController = [[MixiNiceViewController alloc] init];
-
+    
+    UINavigationController* navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    [self presentViewController:navigationController animated:YES completion:nil];
+    [self animationPopFrontScaleUp];
+    
 // TODO :　hint-> presentViewController: animation:
 
 
@@ -80,6 +87,7 @@
 
 - (void)clickClose:(id)sender
 {
+    [self dismissViewControllerAnimated:YES completion:nil];
 // TODO : hint-> dismissViewControllerAnimated:
 }
 

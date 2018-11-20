@@ -28,6 +28,7 @@
 		DAD372B2171C3B7700DF0A95 /* UIViewController+NiceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD372B0171C3B7700DF0A95 /* UIViewController+NiceAnimation.m */; };
 		DAD372B8171C3D7700DF0A95 /* MixiNiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD372B6171C3D7700DF0A95 /* MixiNiceViewController.m */; };
 		DAD372B9171C3D7700DF0A95 /* MixiNiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAD372B7171C3D7700DF0A95 /* MixiNiceViewController.xib */; };
+		EEE985E821A4365C0055A971 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE985E621A435AF0055A971 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,11 +54,12 @@
 		DAD3729E171C3B0F00DF0A95 /* MixiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixiAppDelegate.h; sourceTree = "<group>"; };
 		DAD3729F171C3B0F00DF0A95 /* MixiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiAppDelegate.m; sourceTree = "<group>"; };
 		DAD372A1171C3B0F00DF0A95 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		DAD372AF171C3B7700DF0A95 /* UIViewController+NiceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NiceAnimation.h"; sourceTree = SOURCE_ROOT; };
-		DAD372B0171C3B7700DF0A95 /* UIViewController+NiceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NiceAnimation.m"; sourceTree = SOURCE_ROOT; };
+		DAD372AF171C3B7700DF0A95 /* UIViewController+NiceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+NiceAnimation.h"; path = "NiceModalView/UIViewController+NiceAnimation.h"; sourceTree = SOURCE_ROOT; };
+		DAD372B0171C3B7700DF0A95 /* UIViewController+NiceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+NiceAnimation.m"; path = "NiceModalView/UIViewController+NiceAnimation.m"; sourceTree = SOURCE_ROOT; };
 		DAD372B5171C3D7700DF0A95 /* MixiNiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixiNiceViewController.h; sourceTree = "<group>"; };
 		DAD372B6171C3D7700DF0A95 /* MixiNiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixiNiceViewController.m; sourceTree = "<group>"; };
 		DAD372B7171C3D7700DF0A95 /* MixiNiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixiNiceViewController.xib; sourceTree = "<group>"; };
+		EEE985E621A435AF0055A971 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE985E821A4365C0055A971 /* QuartzCore.framework in Frameworks */,
 				DAD37290171C3B0F00DF0A95 /* UIKit.framework in Frameworks */,
 				DAD37292171C3B0F00DF0A95 /* Foundation.framework in Frameworks */,
 				DAD37294171C3B0F00DF0A95 /* CoreGraphics.framework in Frameworks */,
@@ -118,6 +121,7 @@
 		DAD3728E171C3B0F00DF0A95 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EEE985E621A435AF0055A971 /* QuartzCore.framework */,
 				DAD3728F171C3B0F00DF0A95 /* UIKit.framework */,
 				DAD37291171C3B0F00DF0A95 /* Foundation.framework */,
 				DAD37293171C3B0F00DF0A95 /* CoreGraphics.framework */,

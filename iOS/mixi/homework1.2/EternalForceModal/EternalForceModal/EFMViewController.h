@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 #import "EFMSecondViewController.h"
+#import "HomeworkViewController.h"
 
-@interface EFMViewController : UIViewController // TODO EMFSecondViewControllerのdelegateを準拠する
+@interface EFMViewController : UIViewController<EMFSecondViewControllerDelegate,HomeworkViewControllerDelegate>
+// TODO EMFSecondViewControllerのdelegateを準拠する
 
 @end

@@ -20,6 +20,8 @@
 		5405EF4E171D466100C6E9F5 /* EFMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5405EF4C171D466100C6E9F5 /* EFMViewController.xib */; };
 		5405EF57171D46A000C6E9F5 /* EFMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5405EF55171D46A000C6E9F5 /* EFMSecondViewController.m */; };
 		5405EF58171D46A000C6E9F5 /* EFMSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5405EF56171D46A000C6E9F5 /* EFMSecondViewController.xib */; };
+		EEE985E421A3DD3B0055A971 /* HomeworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE985E221A3DD3B0055A971 /* HomeworkViewController.m */; };
+		EEE985E521A3DD3B0055A971 /* HomeworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE985E321A3DD3B0055A971 /* HomeworkViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		5405EF54171D46A000C6E9F5 /* EFMSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EFMSecondViewController.h; path = ../EFMSecondViewController.h; sourceTree = "<group>"; };
 		5405EF55171D46A000C6E9F5 /* EFMSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EFMSecondViewController.m; path = ../EFMSecondViewController.m; sourceTree = "<group>"; };
 		5405EF56171D46A000C6E9F5 /* EFMSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EFMSecondViewController.xib; path = ../EFMSecondViewController.xib; sourceTree = "<group>"; };
+		EEE985E121A3DD3B0055A971 /* HomeworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeworkViewController.h; sourceTree = "<group>"; };
+		EEE985E221A3DD3B0055A971 /* HomeworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeworkViewController.m; sourceTree = "<group>"; };
+		EEE985E321A3DD3B0055A971 /* HomeworkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeworkViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +102,9 @@
 				5405EF4A171D466100C6E9F5 /* EFMViewController.m */,
 				5405EF4C171D466100C6E9F5 /* EFMViewController.xib */,
 				5405EF38171D466100C6E9F5 /* Supporting Files */,
+				EEE985E121A3DD3B0055A971 /* HomeworkViewController.h */,
+				EEE985E221A3DD3B0055A971 /* HomeworkViewController.m */,
+				EEE985E321A3DD3B0055A971 /* HomeworkViewController.xib */,
 			);
 			path = EternalForceModal;
 			sourceTree = "<group>";
@@ -170,6 +178,7 @@
 				5405EF3C171D466100C6E9F5 /* InfoPlist.strings in Resources */,
 				5405EF44171D466100C6E9F5 /* Default.png in Resources */,
 				5405EF46171D466100C6E9F5 /* Default@2x.png in Resources */,
+				EEE985E521A3DD3B0055A971 /* HomeworkViewController.xib in Resources */,
 				5405EF48171D466100C6E9F5 /* Default-568h@2x.png in Resources */,
 				5405EF4E171D466100C6E9F5 /* EFMViewController.xib in Resources */,
 				5405EF58171D46A000C6E9F5 /* EFMSecondViewController.xib in Resources */,
@@ -185,6 +194,7 @@
 			files = (
 				5405EF3E171D466100C6E9F5 /* main.m in Sources */,
 				5405EF42171D466100C6E9F5 /* EFMAppDelegate.m in Sources */,
+				EEE985E421A3DD3B0055A971 /* HomeworkViewController.m in Sources */,
 				5405EF4B171D466100C6E9F5 /* EFMViewController.m in Sources */,
 				5405EF57171D46A000C6E9F5 /* EFMSecondViewController.m in Sources */,
 			);
@@ -309,6 +319,7 @@
 				5405EF53171D466100C6E9F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

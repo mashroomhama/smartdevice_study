@@ -14,6 +14,8 @@
 
 @implementation EFMViewController
 
+static int integerValue = 0;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -27,16 +29,40 @@
 }
 
 - (IBAction)buttonTapped:(id)sender {
-
     EFMSecondViewController *secondViewController = [[EFMSecondViewController alloc] initWithNibName:@"EFMSecondViewController" bundle:nil];
+    secondViewController.delegate = self;
+    [self presentViewController:secondViewController animated:YES completion:nil];
     // TODO secondViewControllerのdelegateを自分にセット
     // TODO [self presentViewController:￼ animated:￼ completion:￼] を呼ぶ
 
 }
 
 #pragma EMFSecondViewController delegate
+
+-(void) closeModalWithPushButton{
+    [self dismissViewControllerAnimated:YES completion:^{
+        if(integerValue == 1){
+            HomeworkViewController *homeworkViewController = [[HomeworkViewController alloc] initWithNibName:@"HomeworkViewController" bundle:nil];
+            homeworkViewController.delegate = self;
+            [self presentViewController:homeworkViewController animated:YES completion:nil];
+        }else{
+            integerValue++;
+        }
+    }];
+}
+
+-(void) closeHomeworkModal{
+    [self dismissViewControllerAnimated:YES completion:^{
+        if(integerValue >= 1){
+            EFMSecondViewController *secondViewController = [[EFMSecondViewController alloc] initWithNibName:@"EFMSecondViewController" bundle:nil];
+            secondViewController.delegate = self;
+            [self presentViewController:secondViewController animated:YES completion:nil];
+        }else{
+            integerValue++;
+        }
+    }];
+}
+ 
+
 // TODO EFMSecondViewController の delegateメソッドを実装
-
-
-
 @end
