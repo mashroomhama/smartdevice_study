@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1CDF9721AC067900647773 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1CDF9621AC067900647773 /* AppDelegate.m */; };
+		EE1CDF9A21AC067900647773 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1CDF9921AC067900647773 /* ViewController.m */; };
+		EE1CDF9D21AC067900647773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1CDF9B21AC067900647773 /* Main.storyboard */; };
+		EE1CDF9F21AC067900647773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1CDF9E21AC067900647773 /* Assets.xcassets */; };
+		EE1CDFA221AC067900647773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1CDFA021AC067900647773 /* LaunchScreen.storyboard */; };
+		EE1CDFA521AC067900647773 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1CDFA421AC067900647773 /* main.m */; };
+		EE1CDFAF21AC067900647773 /* AutoLayout_hama4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1CDFAE21AC067900647773 /* AutoLayout_hama4Tests.m */; };
+		EE1CDFBA21AC067900647773 /* AutoLayout_hama4UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1CDFB921AC067900647773 /* AutoLayout_hama4UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE1CDFAB21AC067900647773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE1CDF8A21AC067900647773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE1CDF9121AC067900647773;
+			remoteInfo = AutoLayout_hama4;
+		};
+		EE1CDFB621AC067900647773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE1CDF8A21AC067900647773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE1CDF9121AC067900647773;
+			remoteInfo = AutoLayout_hama4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE1CDF9221AC067900647773 /* AutoLayout_hama4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout_hama4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1CDF9521AC067900647773 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE1CDF9621AC067900647773 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE1CDF9821AC067900647773 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE1CDF9921AC067900647773 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE1CDF9C21AC067900647773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE1CDF9E21AC067900647773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE1CDFA121AC067900647773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE1CDFA321AC067900647773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1CDFA421AC067900647773 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE1CDFAA21AC067900647773 /* AutoLayout_hama4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayout_hama4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1CDFAE21AC067900647773 /* AutoLayout_hama4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayout_hama4Tests.m; sourceTree = "<group>"; };
+		EE1CDFB021AC067900647773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1CDFB521AC067900647773 /* AutoLayout_hama4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayout_hama4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1CDFB921AC067900647773 /* AutoLayout_hama4UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayout_hama4UITests.m; sourceTree = "<group>"; };
+		EE1CDFBB21AC067900647773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE1CDF8F21AC067900647773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1CDFA721AC067900647773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1CDFB221AC067900647773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE1CDF8921AC067900647773 = {
+			isa = PBXGroup;
+			children = (
+				EE1CDF9421AC067900647773 /* AutoLayout_hama4 */,
+				EE1CDFAD21AC067900647773 /* AutoLayout_hama4Tests */,
+				EE1CDFB821AC067900647773 /* AutoLayout_hama4UITests */,
+				EE1CDF9321AC067900647773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1CDF9321AC067900647773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE1CDF9221AC067900647773 /* AutoLayout_hama4.app */,
+				EE1CDFAA21AC067900647773 /* AutoLayout_hama4Tests.xctest */,
+				EE1CDFB521AC067900647773 /* AutoLayout_hama4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE1CDF9421AC067900647773 /* AutoLayout_hama4 */ = {
+			isa = PBXGroup;
+			children = (
+				EE1CDF9521AC067900647773 /* AppDelegate.h */,
+				EE1CDF9621AC067900647773 /* AppDelegate.m */,
+				EE1CDF9821AC067900647773 /* ViewController.h */,
+				EE1CDF9921AC067900647773 /* ViewController.m */,
+				EE1CDF9B21AC067900647773 /* Main.storyboard */,
+				EE1CDF9E21AC067900647773 /* Assets.xcassets */,
+				EE1CDFA021AC067900647773 /* LaunchScreen.storyboard */,
+				EE1CDFA321AC067900647773 /* Info.plist */,
+				EE1CDFA421AC067900647773 /* main.m */,
+			);
+			path = AutoLayout_hama4;
+			sourceTree = "<group>";
+		};
+		EE1CDFAD21AC067900647773 /* AutoLayout_hama4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE1CDFAE21AC067900647773 /* AutoLayout_hama4Tests.m */,
+				EE1CDFB021AC067900647773 /* Info.plist */,
+			);
+			path = AutoLayout_hama4Tests;
+			sourceTree = "<group>";
+		};
+		EE1CDFB821AC067900647773 /* AutoLayout_hama4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE1CDFB921AC067900647773 /* AutoLayout_hama4UITests.m */,
+				EE1CDFBB21AC067900647773 /* Info.plist */,
+			);
+			path = AutoLayout_hama4UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE1CDF9121AC067900647773 /* AutoLayout_hama4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1CDFBE21AC067900647773 /* Build configuration list for PBXNativeTarget "AutoLayout_hama4" */;
+			buildPhases = (
+				EE1CDF8E21AC067900647773 /* Sources */,
+				EE1CDF8F21AC067900647773 /* Frameworks */,
+				EE1CDF9021AC067900647773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLayout_hama4;
+			productName = AutoLayout_hama4;
+			productReference = EE1CDF9221AC067900647773 /* AutoLayout_hama4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE1CDFA921AC067900647773 /* AutoLayout_hama4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1CDFC121AC067900647773 /* Build configuration list for PBXNativeTarget "AutoLayout_hama4Tests" */;
+			buildPhases = (
+				EE1CDFA621AC067900647773 /* Sources */,
+				EE1CDFA721AC067900647773 /* Frameworks */,
+				EE1CDFA821AC067900647773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE1CDFAC21AC067900647773 /* PBXTargetDependency */,
+			);
+			name = AutoLayout_hama4Tests;
+			productName = AutoLayout_hama4Tests;
+			productReference = EE1CDFAA21AC067900647773 /* AutoLayout_hama4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE1CDFB421AC067900647773 /* AutoLayout_hama4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1CDFC421AC067900647773 /* Build configuration list for PBXNativeTarget "AutoLayout_hama4UITests" */;
+			buildPhases = (
+				EE1CDFB121AC067900647773 /* Sources */,
+				EE1CDFB221AC067900647773 /* Frameworks */,
+				EE1CDFB321AC067900647773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE1CDFB721AC067900647773 /* PBXTargetDependency */,
+			);
+			name = AutoLayout_hama4UITests;
+			productName = AutoLayout_hama4UITests;
+			productReference = EE1CDFB521AC067900647773 /* AutoLayout_hama4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE1CDF8A21AC067900647773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "濱岡　俊介";
+				TargetAttributes = {
+					EE1CDF9121AC067900647773 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EE1CDFA921AC067900647773 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE1CDF9121AC067900647773;
+					};
+					EE1CDFB421AC067900647773 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE1CDF9121AC067900647773;
+					};
+				};
+			};
+			buildConfigurationList = EE1CDF8D21AC067900647773 /* Build configuration list for PBXProject "AutoLayout_hama4" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE1CDF8921AC067900647773;
+			productRefGroup = EE1CDF9321AC067900647773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE1CDF9121AC067900647773 /* AutoLayout_hama4 */,
+				EE1CDFA921AC067900647773 /* AutoLayout_hama4Tests */,
+				EE1CDFB421AC067900647773 /* AutoLayout_hama4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE1CDF9021AC067900647773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1CDFA221AC067900647773 /* LaunchScreen.storyboard in Resources */,
+				EE1CDF9F21AC067900647773 /* Assets.xcassets in Resources */,
+				EE1CDF9D21AC067900647773 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1CDFA821AC067900647773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1CDFB321AC067900647773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE1CDF8E21AC067900647773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1CDF9A21AC067900647773 /* ViewController.m in Sources */,
+				EE1CDFA521AC067900647773 /* main.m in Sources */,
+				EE1CDF9721AC067900647773 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1CDFA621AC067900647773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1CDFAF21AC067900647773 /* AutoLayout_hama4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1CDFB121AC067900647773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1CDFBA21AC067900647773 /* AutoLayout_hama4UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE1CDFAC21AC067900647773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE1CDF9121AC067900647773 /* AutoLayout_hama4 */;
+			targetProxy = EE1CDFAB21AC067900647773 /* PBXContainerItemProxy */;
+		};
+		EE1CDFB721AC067900647773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE1CDF9121AC067900647773 /* AutoLayout_hama4 */;
+			targetProxy = EE1CDFB621AC067900647773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE1CDF9B21AC067900647773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1CDF9C21AC067900647773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE1CDFA021AC067900647773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1CDFA121AC067900647773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE1CDFBC21AC067900647773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE1CDFBD21AC067900647773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE1CDFBF21AC067900647773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoLayout_hama4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hamaoka.AutoLayout-hama4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE1CDFC021AC067900647773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoLayout_hama4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hamaoka.AutoLayout-hama4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE1CDFC221AC067900647773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoLayout_hama4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hamaoka.AutoLayout-hama4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayout_hama4.app/AutoLayout_hama4";
+			};
+			name = Debug;
+		};
+		EE1CDFC321AC067900647773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoLayout_hama4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hamaoka.AutoLayout-hama4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayout_hama4.app/AutoLayout_hama4";
+			};
+			name = Release;
+		};
+		EE1CDFC521AC067900647773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoLayout_hama4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hamaoka.AutoLayout-hama4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoLayout_hama4;
+			};
+			name = Debug;
+		};
+		EE1CDFC621AC067900647773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoLayout_hama4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hamaoka.AutoLayout-hama4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoLayout_hama4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE1CDF8D21AC067900647773 /* Build configuration list for PBXProject "AutoLayout_hama4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1CDFBC21AC067900647773 /* Debug */,
+				EE1CDFBD21AC067900647773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1CDFBE21AC067900647773 /* Build configuration list for PBXNativeTarget "AutoLayout_hama4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1CDFBF21AC067900647773 /* Debug */,
+				EE1CDFC021AC067900647773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1CDFC121AC067900647773 /* Build configuration list for PBXNativeTarget "AutoLayout_hama4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1CDFC221AC067900647773 /* Debug */,
+				EE1CDFC321AC067900647773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1CDFC421AC067900647773 /* Build configuration list for PBXNativeTarget "AutoLayout_hama4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1CDFC521AC067900647773 /* Debug */,
+				EE1CDFC621AC067900647773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE1CDF8A21AC067900647773 /* Project object */;
+}
