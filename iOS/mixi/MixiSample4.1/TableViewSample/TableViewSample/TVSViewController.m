@@ -36,16 +36,24 @@
     return 100;
 }
 
+
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
         cell.textLabel.text = [NSString stringWithFormat:@"%d", indexPath.row]; // 移動させた
+        
     }
-
+    cell.textLabel.text = [NSString stringWithFormat:@"%d", indexPath.row]; // 何番目のセルかを表示させました
     return cell;
 }
+
+//-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+//    NSLog(@"%ld",section);
+//    return @"Test!";
+//}
 
 
 @end

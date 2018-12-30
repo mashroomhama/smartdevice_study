@@ -15,6 +15,7 @@
 
 static CGRect const kOjisanInitialFrame = {{0, 0}, {170, 170}};
 static CGRect const kOjisanMovedFrame = {{150, 416}, {170, 170}};
+static CGRect const kOjisanMovedFrame2 = {{80, 320}, {340, 340}};
 
 @implementation MixiFirstViewController
 
@@ -42,6 +43,7 @@ static CGRect const kOjisanMovedFrame = {{150, 416}, {170, 170}};
                         options:UIViewAnimationOptionCurveEaseIn
                      animations:^{
                          [_ojisanImageView setFrame:kOjisanMovedFrame];
+                         [_ojisanImageView setFrame:kOjisanMovedFrame2];
                      } completion:^(BOOL finished) {
                          // 実行後に何かアクションをする際はここに記述する
                          [UIView animateWithDuration:1.5f animations:^{
